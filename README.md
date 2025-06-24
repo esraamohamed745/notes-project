@@ -1,6 +1,6 @@
 # notes-project
 <h2>This a project like notes app</h2>
-<h5>Tools I Used</h5>
+<h5>Language I Used</h5>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
