@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #242323;
+}
+
+header{
+   /* background-color: #242323; */
+    height: 100vh;
+}
+.nav-link{
+   color: rgba(245, 245, 245, 0.619);
+}
+.nav-link:hover{
+     color: rgba(245, 245, 245, 0.619);
+}
+.form1{
+    margin-right: 607px;
+}
+.head1{
+     color: rgba(245, 245, 245, 0.619);
+    font-size: 25px;
+}
+.head1:hover{
+     color: rgba(245, 245, 245, 0.619);
+}
+strong{
+    font-size: 17px;
+}
+.form-control:focus{
+    box-shadow: 1px 1px 15px rgba(255, 68, 0, 0.395);
+}
+.dropdown-item:active{
+    background-color: rgba(255, 68, 0, 0.395);
+    
+}
+.button1{
+    background-color: rgba(255, 68, 0, 0.395);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: rgba(245, 245, 245, 0.619) ;
+    font-size: 18px;
+    transition: 0.3s background-color linear;
+    -webkit-transition: 0.3s background-color linear;
+    -moz-transition: 0.3s background-color linear;
+    -ms-transition: 0.3s background-color linear;
+    -o-transition: 0.3s background-color linear;
+}
+
+article{
+    width: 60px;
+    height: 60px;
+    background-color: #9b7ebd82;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.add{
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.mark1{
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn1 , .btn2{
+    padding: 7px 35px;
+   
+}
+.btn1{
+     margin: 15px 0px 0px 50px;
+
+}
+.btn2{
+    margin: 15px 0px 0px 15px;
+}
+#outline-images{
+    background-color: #000000b3;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1;
+}
+#box-contain3{
+    width: 400px;
+    height: 530px;
+    background-color: #353131;
+    color: rgba(245, 245, 245, 0.619);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn3{
+    margin: 5px 0px 0px 15px;
+}
+
+label{
+    font-size: 21px;
+}
+.button2{
+     width: 95%;
+    background-color: rgba(255, 68, 0, 0.395);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: rgba(245, 245, 245, 0.619) ;
+    font-size: 18px;
+    margin: 220px 0px 0px 0px;
+}
+.input1{
+    width: 95%;
+    outline: none;
+    padding: 5px;
+}
+.card{
+    width: 400px;
+    box-shadow: 0px 8px 5px 0px #312f2f37;
+    padding: 5px 10px;
+    margin: 15px 0px 5px 30px;
+}
+.icon1{
+    font-size: 20px;
+    color: rgba(255, 68, 0, 0.759);
+}
+.font{
+     color: rgba(255, 68, 0, 0.759);
+}
+.close{
+    margin-left: 350px;
+    display: inline-block;
+}
+#closeTwo{
+    cursor: pointer;
+}
+.chexList{
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    color: whitesmoke;
+}
+.change{
+    text-decoration: underline;
+}
+.btnOne{
+    background-color:rgba(255, 68, 0, 0.395);
+    border: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    display: block;
+    margin: 18px 0px 0px;
+}
+.buttonReview{
+     background-color: rgba(255, 68, 0, 0.726);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: rgba(245, 245, 245, 0.819) ;
+    font-size: 18px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+}
+.imgOne{
+    height: 180px;
+}

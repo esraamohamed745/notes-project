@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cardOne{
+    width: 430px;
+    height: 230px;
+    border: 1px solid #4d2c2c8b;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h2{
+    color: rgba(255, 68, 0, 0.56);
+}
+.card-title{
+    color: rgba(255, 68, 0, 0.666);
+}

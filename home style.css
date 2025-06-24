@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: #231F20;
+    
+    color: rgba(245, 245, 245, 0.619);
+    padding: 0px 30px 65px 30px;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+img{
+    width: 450px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+p{
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+}
+h1 , h5{
+      font-family: "Source Serif 4", serif;
+}
+h2{
+  font-size: 42px;
+  width: 13em;
+  letter-spacing:2px;
+}
+strong{
+    font-size: 24px;
+}
+button{
+    background-color: rgba(255, 68, 0, 0.395);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: rgba(245, 245, 245, 0.619) ;
+    font-size: 18px;
+    transition: 0.3s background-color linear;
+    -webkit-transition: 0.3s background-color linear;
+    -moz-transition: 0.3s background-color linear;
+    -ms-transition: 0.3s background-color linear;
+    -o-transition: 0.3s background-color linear;
+  
+    display: inline-block;
+}
+button:hover{
+    background-color: rgba(255, 68, 0, 0.722);
+}
+.content{
+    padding: 150px;
+}
+h5{
+    letter-spacing: 1px;
+     background: linear-gradient(to left ,orange , rgba(255, 0, 0, 0.656));
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    
+}
+
+span{
+      background: linear-gradient(to left ,orange , rgba(255, 0, 0, 0.656));
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+a{
+    color: rgba(255, 68, 0, 0.722);
+    font-size: 16px;
+    display: inline-block;
+    width: 59px;
+}
+.head1{
+    color: rgba(245, 245, 245, 0.619);
+    font-size: 28px;
+
+}
+.head1:hover{
+    color: rgba(245, 245, 245, 0.619);
+}
+strong{
+    font-size: 21px;
+    font-weight: 400;
+}
+.accordion{
+    width: 382px;
+}
+.accordion-button{
+    background-color: rgba(255, 68, 0, 0.705);
+    border-color: rgba(255, 68, 0, 0.634);
+      color: rgba(245, 245, 245, 0.619);
+}
+.accordion-button:not(.collapsed){
+    background-color: rgba(255, 68, 0, 0.634);
+    color: rgba(245, 245, 245, 0.619);
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem  transparent;
+}
+.accordion-body{
+    background-color: #231F20;
+    color: rgba(245, 245, 245, 0.619);
+}
+article{
+    margin-top:-121px;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:  #231F20;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.head{
+    height: 80vh;
+}
+h2{
+     color: rgba(245, 245, 245, 0.619);
+    font-family: "Source Serif 4", serif;
+     font-size: 35px;
+     letter-spacing: 2px;
+     padding: 40px 0px 0px 0px;
+}
+.login{
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 1px solid rgba(245, 245, 245, 0.195);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    position: relative;
+}
+img{
+    width: 340px;
+    position: absolute;
+    top: -84px;
+    right: 0px;
+    z-index: -1;
+}
+.circle{
+    width: 8rem;
+    background-color: #BB4430;
+    height: 8rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.circle1{
+     position: absolute;
+     top: -65px;
+    right: 337px;
+    z-index: -1;
+}
+.circle2{
+    position: absolute;
+    bottom: -54px;
+    right: -59px;
+    z-index: -1;
+}
+h1{
+   background: linear-gradient(to left ,orange , rgba(255, 0, 0, 0.656));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ display: inline-block;
+ 
+}
+strong{
+    font-size: 24px;
+}
+.input1{
+     background-color: #9191911f;
+     box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+     outline: none;
+     border: none;
+     color: whitesmoke;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     margin-left: -22px;
+}
+.input2{
+    background-color: rgba(255, 68, 0, 0.395);
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+   color: rgba(245, 245, 245, 0.619) ;
+    font-size: 18px;
+     margin-left: -22px;
+
+}
+.link{
+    color: rgba(245, 245, 245, 0.619);
+    
+}
+.link1{
+     margin-left: -25px;
+}
+p{
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin: 0px 0px 0px -150px;
+    
+}
+.req{
+    color: red;
+}
+.colors{
+    width: 40px;
+}

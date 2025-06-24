@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>notes page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand head1" href="#"><strong>Daily</strong>Notes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" id="btnText">Text</a></li>
+            <li><a class="dropdown-item" href="#" id="btnList">To-Do-List</a></li>
+            <li><a class="dropdown-item" href="#" id="btnImage">Image</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex form1" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchBtn" onkeyup="searching(this.value)"/>
+        <button class="btn button1" type="submit" id="whoThis">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <header>
+
+
+      <div id="outline-box">
+        <div id="box-item" class="px-3 pt-3">
+          <i class="fa-solid fa-xmark close" id="close"></i>
+          <label for="text" class="d-block my-1">Title</label>
+          <input type="text" name="text" id="noteText" class="d-block py-1 input1">
+          <label for="date" class="d-block">Date</label>
+          <input type="date" name="date" id="noteDate">
+          <label for="area" class="d-block my-1">Text</label>
+          <textarea name="area" id="noteArea" cols="45" rows="10" class="d-block"></textarea>
+          <button class="button2 mt-3" id="addNote">add note</button>
+        </div>
+      </div>
+
+      <div class="row d-flex align-items-center gap-4" id="row"></div>
+
+
+      <button class="buttonReview" id="buttonReview">Reviews</button>
+       
+    </header>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- end -->
+     <script src="main.js"></script>
+</body>
+</html>
