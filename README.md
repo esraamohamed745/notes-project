@@ -1,8 +1,9 @@
 # notes-project
-<p>this a project like notes app</p>
+<h2>This a project like notes app</h2>
+<h5>Tools I Used</h5>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JAVASCRIPT</li>
 </ul>
-<p>and i use Bootsrap library</p>
+<p>and I used Bootsrap library</p>
